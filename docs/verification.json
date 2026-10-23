@@ -1,0 +1,100 @@
+{
+  "checked_on": "2026-10-23",
+  "platform": "Windows",
+  "scope": "Software parity with archived artifacts; no new Kaggle evaluation.",
+  "environment": {
+    "python": "3.12.3",
+    "packages": {
+      "colorama": "0.4.6",
+      "iniconfig": "2.3.1",
+      "numpy": "2.3.4",
+      "packaging": "26.3",
+      "pluggy": "1.7.0",
+      "Pygments": "2.21.0",
+      "pytest": "8.4.2",
+      "ruff": "0.17.1",
+      "spanish-sentiment-ensemble": "1.0.0"
+    }
+  },
+  "tests": {
+    "python_3_12": {
+      "tests": 24,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 1,
+      "passed": 23
+    },
+    "python_3_13": {
+      "tests": 24,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 1,
+      "passed": 23
+    }
+  },
+  "remote_ci_observed": false,
+  "inputs": [
+    {
+      "path": "assets/private/logits_beto.npy",
+      "sha256": "3a9691b7e8b2554d217bb3064e58cdd1c53e2020332943566b2e886aa35db9e5"
+    },
+    {
+      "path": "assets/private/logits_cardiff.npy",
+      "sha256": "dc406c39521b244b570fa805864ecdcd80acb21ff3dee26175c56e5fe9e9d3f8"
+    },
+    {
+      "path": "assets/private/logits_cascade_robertuito_gpu.npy",
+      "sha256": "b28817ed938587c0b3f0dd9bdcf98cd49eb7a46e8e1082f3e69e0096d895be12"
+    },
+    {
+      "path": "assets/private/logits_seed42.npy",
+      "sha256": "91e6acf6f48e3b020e8cdbdaff629cef7af1b140ba8ab3520c85ff82520844c6"
+    },
+    {
+      "path": "assets/private/pln-uja-practica-final/submission_v22_02_cascade010.csv",
+      "sha256": "658b453d842e6424e79b920536c12d1fa7b4c80dcfe99c79e2f70a0c14876308"
+    },
+    {
+      "path": "assets/private/pln-uja-practica-final/test.csv",
+      "sha256": "913bebb149a380df40aecf18c4012ded0bc1ec754cc8790c427c9c19a69d493f"
+    },
+    {
+      "path": "assets/private/pln-uja-practica-final/train.csv",
+      "sha256": "574f0ec8ed51c00ae28dc70eda78d4d8d7db10f1784330a946a31f116962bd00"
+    }
+  ],
+  "competition": {
+    "rank": 1,
+    "metric": "macro F1",
+    "score": 0.64182,
+    "subset": "public",
+    "source": "author confirmation",
+    "private_score": null,
+    "winning_csv_identified": false
+  },
+  "replay": {
+    "reference": "submission_v22_02_cascade010.csv",
+    "rows": 1706,
+    "reference_equal": true,
+    "sha256": "658b453d842e6424e79b920536c12d1fa7b4c80dcfe99c79e2f70a0c14876308"
+  },
+  "training": {
+    "preprocessing_comparisons_with_original": 6826,
+    "preprocessing_mismatches": 0,
+    "offline_backend_tests": {
+      "tests": 3,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "passed": 3
+    },
+    "full_transformer_training_repeated": false,
+    "recipe_dry_run_checked_on_original_data": true
+  },
+  "data_audit": {
+    "duplicate_train_ids": 1,
+    "shared_train_test_ids": 1,
+    "shared_exact_texts": 2,
+    "rows_modified": false
+  }
+}

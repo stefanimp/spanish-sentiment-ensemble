@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1130" height="310" viewBox="0 0 1130 310" role="img" aria-label="RoBERTuito, Cardiff, BETO and a binary cascade contribute in parallel to the final sentiment ensemble.">
+  <rect width="1130" height="310" rx="20" fill="#101d30"/>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <text x="40" y="47" fill="#b6a0ff" font-size="15" letter-spacing="3">STEFANIMP / NATURAL LANGUAGE PROCESSING</text>
+    <text x="40" y="103" fill="white" font-size="42" font-weight="700">Spanish Sentiment Ensemble</text>
+    <text x="40" y="143" fill="#bdcce0" font-size="20">Complementary models. A fixed, reproducible decision.</text>
+    <g fill="#1d2c43">
+      <rect x="40" y="176" width="510" height="26" rx="5"/>
+      <rect x="40" y="207" width="510" height="26" rx="5"/>
+      <rect x="40" y="238" width="510" height="26" rx="5"/>
+      <rect x="40" y="269" width="510" height="26" rx="5"/>
+      <rect x="790" y="204" width="300" height="70" rx="12"/>
+    </g>
+    <g fill="#edf3fa" font-size="15">
+      <text x="56" y="194">RoBERTuito</text><text x="490" y="194">0.40</text>
+      <text x="56" y="225">Cardiff</text><text x="490" y="225">0.31</text>
+      <text x="56" y="256">BETO</text><text x="490" y="256">0.19</text>
+      <text x="56" y="287">Hierarchical cascade</text><text x="490" y="287">0.10</text>
+    </g>
+    <g fill="none" stroke="#b6a0ff" stroke-width="2">
+      <path d="M550 189 C660 189 660 239 760 239"/>
+      <path d="M550 220 C660 220 660 239 760 239"/>
+      <path d="M550 251 C660 251 660 239 760 239"/>
+      <path d="M550 282 C660 282 660 239 760 239"/>
+      <path d="M760 239 H782 M773 233 L782 239 L773 245"/>
+    </g>
+    <text x="940" y="231" text-anchor="middle" fill="white" font-size="18">Weighted logits + class boost</text>
+    <text x="940" y="256" text-anchor="middle" fill="#bdcce0" font-size="16">P / N / NEU / NONE</text>
+  </g>
+</svg>
