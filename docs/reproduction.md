@@ -85,3 +85,10 @@ uv run --no-sync spanish-sentiment train --component rob42 --train-csv assets/pr
 This alternative does not enforce the PyPI-only lock for the selected PyTorch wheel.
 `--no-sync` keeps that hardware-specific installation; the completed run records its versions.
 See the [uv PyTorch guide](https://docs.astral.sh/uv/guides/integration/pytorch/) for backend selection.
+
+## Verification
+
+[GitHub Actions](https://github.com/stefanimp/spanish-sentiment-ensemble/actions/runs/39994048567) passed the core tests, lint and formatting checks
+on Windows/Linux with Python 3.12/3.13. A separate Linux/Python 3.12 job passed all three
+offline training-backend tests, including a tiny BERT optimizer step. These checks do not
+retrain the full tournament models. The tested commit is recorded in `verification.json`.

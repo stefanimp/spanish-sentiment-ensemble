@@ -32,7 +32,7 @@
       "passed": 23
     }
   },
-  "remote_ci_observed": false,
+  "remote_ci_observed": true,
   "inputs": [
     {
       "path": "assets/private/logits_beto.npy",
@@ -96,5 +96,32 @@
     "shared_train_test_ids": 1,
     "shared_exact_texts": 2,
     "rows_modified": false
+  },
+  "remote_ci": {
+    "url": "https://github.com/stefanimp/spanish-sentiment-ensemble/actions/runs/39994048567",
+    "commit": "e68af41fd5569c42e69e761c8a50309400543af2",
+    "conclusion": "success",
+    "jobs": [
+      {
+        "name": "test (ubuntu-latest, 3.12)",
+        "conclusion": "success"
+      },
+      {
+        "name": "test (windows-latest, 3.12)",
+        "conclusion": "success"
+      },
+      {
+        "name": "training-backend",
+        "conclusion": "success"
+      },
+      {
+        "name": "test (windows-latest, 3.13)",
+        "conclusion": "success"
+      },
+      {
+        "name": "test (ubuntu-latest, 3.13)",
+        "conclusion": "success"
+      }
+    ]
   }
 }

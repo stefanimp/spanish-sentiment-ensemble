@@ -2,7 +2,7 @@
 
 # Spanish Sentiment Ensemble
 
-[![Checks](https://github.com/stefanimp/spanish-sentiment-ensemble/actions/workflows/ci.yml/badge.svg)](https://github.com/stefanimp/spanish-sentiment-ensemble/actions/workflows/ci.yml)
+[![Checks](https://github.com/stefanimp/spanish-sentiment-ensemble/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/stefanimp/spanish-sentiment-ensemble/actions/workflows/ci.yml)
 
 Spanish sentiment classification with **RoBERTuito, Cardiff, BETO and a hierarchical cascade**.
 The ensemble predicts positive (`P`), negative (`N`), neutral (`NEU`) or no opinion (`NONE`).
